@@ -1,0 +1,59 @@
+
+/* Add these styles to your scholer.css file or your component's CSS file */
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+  }
+  a{
+    text-decoration: none;
+    background-color: rgb(246, 202, 202);
+    color: black;
+    padding: 0.2rem;
+    border-radius: 4px;
+    
+  }
+  
+  .card table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .card td {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .card td:nth-child(1) {
+    font-weight: bold;
+  }
+  .card td :nth-child(2)
+  {
+    font-weight: bold;
+  }
+  .card td :nth-child(3)
+  {
+    font-weight: bold;
+  }
+  .card td :nth-child(4)
+  {
+    font-weight: bold;
+  }
+  .card td :nth-child(5)
+  {
+    font-weight: bold;
+  }
+  .card td :nth-child(6)
+  {
+    background-color: rgb(246, 202, 202);
+  }
+ 
+  .card:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
